@@ -32,4 +32,27 @@ This project was created for educational and design practice purposes. It can be
 Both images are used under the [Unsplash License](https://unsplash.com/license), which allows free use for commercial and non-commercial purposes without permission or attribution, though crediting creators is appreciated.
 
 ## 📁 Folder Structure
+project-root/
+│
+├── index.html
+├── style.css
+├── assets/
+│ ├── flower-logo.png
+│ ├── flower-wallpaper.svg
+│ └── Raleway-VariableFont_wght.ttf
+└── README.md
+
+## ✅ Features
+
+- Responsive two-column layout (logo/image side and form side)
+- Clean, accessible form fields
+- Form validation styling (invalid field highlighting)
+- Custom font integration
+- Subtle shadows and hover effects for a polished look
+
+## 🔒 Disclaimer
+
+This is not a real registration service. Do not input real personal data. The project is for learning and demonstration purposes only.
+
+---
 
