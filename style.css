@@ -27,7 +27,7 @@ html, body {
 /* Left side: Banner */
 .banner {
   width: 35vw;
-  background-image: url('/assets/flower-wallpaper.svg');
+  background-image: url('./assets/flower-wallpaper.svg');
   background-size: cover;
   background-position: center;
   display: flex;
