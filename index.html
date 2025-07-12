@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign-Up Form</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="container">
     
+    <!-- Left Side: Banner -->
+    <div class="banner">
+      <div class="banner-top">
+        <img src="assets/flower-logo.png" alt="Flower Logo" class="logo" />
+        <div class="banner-text">Flower</div>
+      </div>
+      <p class="credits">
+        Photo by
+        <a href="https://unsplash.com/illustrations/blue-flowers-form-a-repeating-pattern-CJgAyzjBU30" target="_blank">Umm-e-Hani Ali</a>
+        on
+        <a href="https://unsplash.com/@ummehaniali" target="_blank">Unsplash</a>
+      </p>
+    </div>
+
+    <!-- Right Side: Form -->
+    <div class="form-container">
+      <form action="register_flower.php" method="post">
+        <div class="header">
+          <h1>
+            This is not a real online service! Join us registering flowers into the archives of botany. Sign up <em>now</em> to get started.
+          </h1>
+        </div>
+
+        <div class="form-main">
+          <p class="action">Let's do this!</p>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first_name">First Name:</label>
+              <input type="text" id="first_name" name="first_name" placeholder="Fable" required />
+            </div>
+            <div class="form-group">
+              <label for="last_name">Last Name:</label>
+              <input type="text" id="last_name" name="last_name" placeholder="Taylor" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="email@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="phone_number">Phone Number:</label>
+              <input type="tel" id="phone_number" name="phone_number" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="user_password">Password:</label>
+              <input type="password" id="user_password" name="user_password" required />
+            </div>
+            <div class="form-group">
+              <label for="confirm_password">Confirm Password:</label>
+              <input type="password" id="confirm_password" name="confirm_password" required />
+            </div>
+          </div>
+
+          <div class="btn-container">
+            <button type="submit">Create Account</button>
+          </div>
+          
+          <p class="got-account">
+            Already got an account? <a href="./index.html" class="log-in">Log in</a>
+          </p>
+        </div>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
